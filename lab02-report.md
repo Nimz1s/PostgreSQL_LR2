@@ -39,7 +39,8 @@ ORDER BY c.category_name, p.product_name;
 
 Результат: Отримано запити з використанням INNER JOIN для отримання інформації з кількох пов'язаних таблиць
 
-![alt text](C:\Users\vozni\Desktop\1.png)
+<img width="748" height="430" alt="2" src="https://github.com/user-attachments/assets/e3579549-6854-4f3f-81e3-75b5afd67c43" />
+
 [Продовжити для всіх завдань обраного рівня]
 
 
@@ -82,7 +83,8 @@ ORDER BY o.order_id;
 
 Результат: множинне з'єднання взяте з декількох таблиць
 
-![alt text](C:\Users\vozni\Desktop\3.png)
+<img width="1471" height="477" alt="3" src="https://github.com/user-attachments/assets/ac87a43d-1be5-48e6-8d02-15c176ef00b8" />
+
 
 
 
@@ -104,7 +106,8 @@ ORDER BY product_count DESC;
 Результат: отримано  кількість товарів у кожній категорії та середню ціну.
 
 
-![alt text](C:\Users\vozni\Desktop\4.png)
+<img width="762" height="468" alt="4" src="https://github.com/user-attachments/assets/e037eb04-c352-452b-b009-89bdc9580a75" />
+
 
 
 
@@ -127,7 +130,8 @@ ORDER BY total_sales DESC;
 
 Результат: отримано  загальні продажі за регіонами.
 
-![alt text](C:\Users\vozni\Desktop\5.png)
+<img width="750" height="460" alt="5" src="https://github.com/user-attachments/assets/21b1fffc-879f-47ca-8ce7-03d67983ad88" />
+
 
 
 
@@ -148,7 +152,8 @@ ORDER BY product_count DESC;
 
 Результат: отримано постачальників з кількістю товарів більше 2.
 
-![alt text](C:\Users\vozni\Desktop\6.png)
+<img width="750" height="457" alt="6" src="https://github.com/user-attachments/assets/c6a0be2f-8d9a-4cc0-8dbc-7a3fa194d501" />
+
 
 
 
@@ -168,7 +173,8 @@ ORDER BY c.category_name, p.unit_price DESC;
 
 Результат: отримано товари з ціною вищою за середню ціну товарів у своїй категорії.
 
-![alt text](C:\Users\vozni\Desktop\7.png)
+<img width="750" height="463" alt="7" src="https://github.com/user-attachments/assets/3dee0a02-b037-41e3-bf3a-e5f8fab22c60" />
+
 
 
 
@@ -206,7 +212,8 @@ ORDER BY total_sold DESC;
 
 Результат: отримано список товарів інформацію про загальну кількість продажів.
 
-![alt text](C:\Users\vozni\Desktop\9.png)
+<img width="745" height="453" alt="8" src="https://github.com/user-attachments/assets/30b6886a-f8ff-47b8-a8be-8e2968145c92" />
+
 
 
 
@@ -224,7 +231,8 @@ ORDER BY products_count DESC;
 
 Результат: отримано RIGHT JOIN для аналізу категорій товарів та їх наявності.
 
-![alt text](C:\Users\vozni\Desktop\5.1.png)
+<img width="744" height="474" alt="5 1" src="https://github.com/user-attachments/assets/3b65032f-70f4-4e9f-a6a3-4d302a5048ee" />
+
 
 
 
@@ -244,7 +252,8 @@ ORDER BY e2.last_name, e1.last_name;
 
 Результат: отримано Self-join для знаходження співробітників та їх керівників.
 
-![alt text](C:\Users\vozni\Desktop\5.2.png)
+<img width="754" height="471" alt="5 2" src="https://github.com/user-attachments/assets/fdce3117-d3af-4813-b450-1a6e78dded05" />
+
 
 
 
@@ -266,7 +275,8 @@ ORDER BY c.category_name, p.unit_price DESC;
 
 Результат: отримано ренжовані товари за ціною в межах категорії.
 
-![alt text](C:\Users\vozni\Desktop\5.3.png)
+<img width="1190" height="460" alt="5 3" src="https://github.com/user-attachments/assets/a02612f3-b15e-4429-a83f-0e422632000a" />
+
 
 
 
@@ -292,7 +302,8 @@ ORDER BY customer_id, order_date;
 
 Результат: отримано порівняні замовлення кожного клієнта з попереднім за датою.
 
-![alt text](C:\Users\vozni\Desktop\5.4.png)
+<img width="743" height="478" alt="5 4" src="https://github.com/user-attachments/assets/7bdb9b19-396d-4375-9b74-de63e6757521" />
+
 
 
 
@@ -325,8 +336,10 @@ CREATE INDEX idx_mv_monthly_sales_date ON mv_monthly_sales(year, month);
 
 Результат: отримано матеріалізоване представлення для аналізу продажів.
 
-![alt text](C:\Users\vozni\Desktop\6.1.1.png)
-![alt text](C:\Users\vozni\Desktop\6.1.2.png)
+<img width="733" height="459" alt="6 1 1" src="https://github.com/user-attachments/assets/84da9211-4616-4980-b51e-782b3c1f6fc0" />
+
+<img width="1470" height="903" alt="6 1 2" src="https://github.com/user-attachments/assets/ee3b40c5-dea0-40ce-af48-10bc4cfc2052" />
+
 
 
 
@@ -368,15 +381,18 @@ ORDER BY hierarchy_path;
 
 Результат: отримано рекурсивний запит для ієрархії керівників.
 
-![alt text](C:\Users\vozni\Desktop\6.2.png)
+<img width="1208" height="471" alt="6 2" src="https://github.com/user-attachments/assets/14bbd8e9-a434-4071-a13f-e01c3341aa4e" />
+
 
 
 
 ### 7.1
 
-![alt text](C:\Users\vozni\Desktop\7.1.1.png)
-![alt text](C:\Users\vozni\Desktop\7.1.2.png)
-![alt text](C:\Users\vozni\Desktop\7.1.3.png)
+<img width="804" height="907" alt="7 1 1" src="https://github.com/user-attachments/assets/3f3641f6-fb2b-4bb2-8156-bc88b3c4b8e0" />
+<img width="796" height="904" alt="7 1 2" src="https://github.com/user-attachments/assets/4d817bca-67bc-4b3e-9a4e-fd9f62aa0759" />
+<img width="805" height="915" alt="7 1 3" src="https://github.com/user-attachments/assets/31fd1f30-1ff0-43bc-9d00-e3bf04cf3aa2" />
+
+
 
 
 ### 7.2
